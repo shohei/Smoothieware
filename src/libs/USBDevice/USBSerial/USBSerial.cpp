@@ -274,6 +274,8 @@ void USBSerial::on_main_loop(void *argument)
             attached = true;
             THEKERNEL->streams->append_stream(this);
             puts("Smoothie\r\nok\r\n");
+            puts("Keio University SFC\r\n");
+            puts("Hacked by S.Aoki\r\n");
         }
         else
         {
